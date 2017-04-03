@@ -11,8 +11,8 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     worker.cpp \
-    controller.cpp
+    global_objects.cpp
 
 HEADERS += \
-    controller.h \
-    worker.h
+    worker.h \
+    global_objects.h
