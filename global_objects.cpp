@@ -4,6 +4,6 @@ namespace
 {
     QTimer timer;
     QMutex mutex;
-    QWaitCondition A_notConnected;
-    QWaitCondition B_notConnected;
+    QWaitCondition camera_notConnected;
+    QWaitCondition power_notConnected;
 }
